@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #d8f3dc;
+  background: #3a86ff;
   font-family: 'Arimo', sans-serif;
   display: flex;
   align-items: center;
@@ -50,4 +50,14 @@ body {
 .code:valid {
 	border-color: #ffd500;
 	box-shadow: 0 10px 10px -5px rgba(0,0,0, 0.25);
+}
+
+.info {
+	background-color: #eaeaea;
+	display: inline-block;
+	padding: 10px;
+	line-height: 20px;
+	max-width: 400px;
+	color: #777;
+	border-radius: 5px;
 }
